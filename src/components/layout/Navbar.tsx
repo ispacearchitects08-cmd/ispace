@@ -22,10 +22,10 @@ export default function Navbar() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center">
-            <Image src="/img/icons/icon-1.png" alt="Icon" width={40} height={40} className="mr-3" />
-            <h1 className="text-primary text-2xl lg:text-3xl font-heading m-0 uppercase tracking-wide">
+            <Image src="/img/icons/icon-1.png" alt="i SPACE Architects Logo" width={40} height={40} className="mr-3" />
+            <span className="text-primary text-2xl lg:text-3xl font-heading m-0 uppercase tracking-wide">
               i Space Architects
-            </h1>
+            </span>
           </Link>
 
           {/* Desktop Nav */}
@@ -35,6 +35,7 @@ export default function Navbar() {
                 key={link.name} 
                 href={link.href}
                 className="text-dark-text hover:text-primary font-medium text-[15px] uppercase tracking-wide transition-colors"
+                title={`Visit ${link.name} of i SPACE Architects Kodaikanal`}
               >
                 {link.name}
               </Link>
@@ -60,6 +61,7 @@ export default function Navbar() {
                 href={link.href}
                 className="block px-3 py-2 text-base font-medium text-dark-text hover:text-primary hover:bg-light-bg uppercase"
                 onClick={() => setIsOpen(false)}
+                title={`Visit ${link.name} of i SPACE Architects Kodaikanal`}
               >
                 {link.name}
               </Link>

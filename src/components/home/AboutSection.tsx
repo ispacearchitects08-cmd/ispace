@@ -10,7 +10,7 @@ export default function AboutSection() {
           <div className="absolute top-0 left-0 w-[70%] h-[80%] z-10">
             <Image 
               src="/img/project-3.jpg" 
-              alt="Architecture blueprint" 
+              alt="i SPACE Architects in Kodaikanal - Blueprint Design" 
               fill 
               className="object-cover rounded-2xl shadow-lg"
             />
@@ -18,7 +18,7 @@ export default function AboutSection() {
           <div className="absolute bottom-0 right-0 w-[70%] h-[80%] z-20 border-8 border-white rounded-2xl shadow-2xl">
             <Image 
               src="/img/project-4.jpg" 
-              alt="Construction site" 
+              alt="Kodaikanal Architecture Construction Site" 
               fill 
               className="object-cover rounded-xl"
             />
@@ -27,15 +27,15 @@ export default function AboutSection() {
 
         {/* Content */}
         <div>
-          <h4 className="text-primary uppercase tracking-widest font-bold mb-3">About Us</h4>
+          <h1 className="text-primary uppercase tracking-widest font-bold mb-3 text-lg">Best Architects in Kodaikanal | i SPACE</h1>
           <h2 className="text-4xl lg:text-5xl font-heading text-dark-text mb-6 leading-tight">
-            A Creative Young Architect For Your Dream Built Environment
+            Leading Kodaikanal Architecture & Construction Firm
           </h2>
           <p className="text-gray-500 mb-6 leading-relaxed">
-            Welcome to i SPACE ARCHITECTS & CONSTRUCTION, a dynamic and innovative powerhouse where architecture and construction seamlessly converge. Our young and driven team is dedicated to transforming dreams into reality, crafting spaces that inspire and endure. With a holistic approach, we bridge the gap between design and construction, ensuring a harmonious journey from concept to completion.
+            Welcome to i SPACE ARCHITECTS & CONSTRUCTION, the premier destination for <strong>modern architecture in Kodaikanal</strong>. We are a dynamic and innovative powerhouse where creative design and professional construction seamlessly converge. Our team of expert <strong>architects in Kodaikanal</strong> is dedicated to transforming your vision into reality, crafting sustainable spaces that inspire.
           </p>
           <p className="text-gray-500 mb-8 leading-relaxed">
-            At i SPACE, we thrive on challenges, leveraging our passion for creative design and technical prowess to deliver exceptional results. From envisioning modern homes to constructing functional commercial complexes, our commitment to excellence remains unwavering. With sustainability as a cornerstone, we infuse eco-conscious practices into every project, leaving a positive impact on the environment. Join us in shaping skylines and reshaping possibilities. Welcome to the fusion of imagination and craftsmanship at i SPACE ARCHITECTS & CONSTRUCTION.
+            As a top-rated <strong>architecture firm in Kodaikanal</strong>, we thrive on delivering exceptional results for residential and commercial projects. From envisioning modern eco-homes to constructing functional hill-station complexes, i SPACE remains the trusted choice for quality and innovation in the TN region.
           </p>
         </div>
       </div>

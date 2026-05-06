@@ -7,37 +7,37 @@ const services = [
     icon: '/img/icons/icon-5.png',
     bgImg: '/img/service-1.jpg',
     title: 'Architecture',
-    description: 'Designing, planning, and overseeing construction projects, ensuring functionality, aesthetics, safety, and efficient space utilization for optimal built environments'
+    description: 'Premier architectural planning in Kodaikanal, ensuring functionality, aesthetics, and sustainable space utilization for hills and plains.'
   },
   {
     icon: '/img/icons/icon-6.png',
     bgImg: '/img/service-2.jpg',
     title: '3D Animation',
-    description: 'Crafting dynamic 3D visuals of architectural designs, illustrating spaces, materials, and ambiance, aiding in conveying concepts and engaging presentations'
+    description: 'Dynamic 3D walkthroughs and visuals for architecture in Kodaikanal, aiding in conveying concepts with high-end realistic presentations.'
   },
   {
     icon: '/img/icons/icon-7.png',
     bgImg: '/img/service-3.jpg',
     title: 'House Planning',
-    description: 'Thoughtfully planned home with practical layout, inviting interiors, optimized storage, and emphasis on comfort, blending style and functionality seamlessly'
+    description: 'Expert house planning in Kodaikanal for villas and residences, blending comfort and style with practical hill-station layouts.'
   },
   {
     icon: '/img/icons/icon-8.png',
     bgImg: '/img/service-4.jpg',
     title: 'Interior Design',
-    description: 'Elevate spaces with personalized interior design, balancing aesthetics and functionality through curated elements, colors, and textures for a harmonious ambiance'
+    description: 'Premium interior design in Kodaikanal, balancing aesthetics and functionality through curated elements for a harmonious mountain ambiance.'
   },
   {
     icon: '/img/icons/icon-9.png',
     bgImg: '/img/service-5.jpg',
     title: 'Renovation',
-    description: 'Revitalize spaces with expert renovation services, combining modern updates, efficient layouts, and quality craftsmanship to enhance both aesthetics and functionality'
+    description: 'Expert home renovation in Kodaikanal, combining modern updates with quality craftsmanship to revitalize your existing spaces.'
   },
   {
     icon: '/img/icons/icon-10.png',
     bgImg: '/img/service-6.jpg',
     title: 'Construction',
-    description: 'Comprehensive construction services delivering reliable project management, skilled labor, and quality materials for timely execution of diverse projects with precision'
+    description: 'Comprehensive construction services in Kodaikanal delivering reliable management and quality materials for timely project execution.'
   }
 ];
 
@@ -46,9 +46,9 @@ export default function ServicesSection() {
     <div className="container mx-auto px-4 lg:px-8 py-32 bg-light-bg" id="our_services">
       <FadeIn delay={0.1}>
         <div className="text-center max-w-2xl mx-auto mb-20">
-          <h4 className="text-primary tracking-[0.2em] uppercase font-bold mb-3 text-sm">Our Services</h4>
+          <h4 className="text-primary tracking-[0.2em] uppercase font-bold mb-3 text-sm">Professional Architecture in Kodaikanal</h4>
           <h2 className="text-5xl lg:text-6xl font-light text-dark-text leading-tight tracking-tight">
-            We Focus On Modern Sustainable Architecture And Interior Design
+            Leading Kodaikanal Architecture & Modern Interior Design
           </h2>
         </div>
       </FadeIn>
@@ -60,7 +60,7 @@ export default function ServicesSection() {
               {/* Background Image (appears on hover) */}
               <Image 
                 src={service.bgImg} 
-                alt={service.title} 
+                alt={`${service.title} in Kodaikanal`} 
                 fill 
                 className="object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
               />
